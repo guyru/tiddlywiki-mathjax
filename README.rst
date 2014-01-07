@@ -13,7 +13,7 @@ Installation
 ============
 Create a new tiddler named ``MathJaxPlugin`` and tag it with
 ``systemConfig``. Copy the contents of the file ``tiddlywiki-mathjax.js``
-into it.
+into it. You will need to reload your TiddlyWiki to activate the plugin.
 
 Usage
 -----
@@ -27,6 +27,12 @@ plugin.
 
 Changelog
 =========
+
+1.1.0 (Jan 7, 2014)
+--------------------
+ * Update location of HTTPS URL of MathJax.
+ * Add user options to enable HTTPS and possibly override the MathJax script
+   location.
 
 1.0.1 (Feb 11, 2012)
 --------------------
